@@ -1,0 +1,47 @@
+nav{
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(1px);
+    border-bottom: solid 1px var(--sec);
+}
+
+.navbar{
+    height: 15vh;
+}
+
+.logo{
+    width: 150px;
+}
+
+.menu{
+    font-size: 50px;
+    color: var(--sec);
+}
+
+.menu-contain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+
+.menu-btn,.menu-btn:focus,.menu-btn:active{
+    border: none;
+    background: transparent;
+}
+
+.menu-canvas{
+    margin-top: 65px;
+    margin-right: 65px;
+    width: 50vw !important;
+    height: 80vh;
+    background: var(--sec);
+}
+
+.brand-canvas{
+    font-family: var(--fm);
+    font-size: 90px;
+    letter-spacing: 2px;
+    color: #4b4a4a;
+}
