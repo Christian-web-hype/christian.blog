@@ -18,5 +18,6 @@ Route::get('/', [PublicController::class, 'home'])->name('home');
 
 Route::get('/portfolio', [PublicController::class, 'portfolio'])->name('portfolio');
 
-
 Route::get('/contattami', [PublicController::class, 'contact'])->name('contact');
+
+Route::get('/chisono', [PublicController::class, 'who'])->name('who');

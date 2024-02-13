@@ -17,4 +17,8 @@ class PublicController extends Controller
     public function contact() {
         return view('contact');
     }
+
+    public function who() {
+        return view('who');
+    }
 }
