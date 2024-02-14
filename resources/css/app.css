@@ -2,17 +2,18 @@
 @import 'bootstrap-icons';
 @import 'navbar.css';
 @import 'home.css';
+@import 'footer.css';
 
 :root{
     --main: #E8E5E1;
     --sec: #333;
     --acc: #FF7300;
+    --bg: #BAB0A6;
     --fm: "Jost", sans-serif;
     --fs: "Indie Flower", cursive;
 }
 
 body{
-    /* background: linear-gradient(to left,#3333335d,transparent,transparent),var(--main); */
-    height: 200vh;
     background: var(--main);
+    
 }

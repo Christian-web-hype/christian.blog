@@ -31,34 +31,13 @@
             </ul>
 
             <div class="col-8 mt-5">
-                <h2 class="canvas-title text-center">Tieniti aggiornato!!</h2>
+                 <h3 class="canvas-title text-center">Seguimi e resta aggiornato!</h3>
 
-                <div class="container-fluid mt-5">
-                    <div class="row justify-content-between">
-                        
-                        <div class="col-5">
-                            <label class="label" for="name">Nome</label>
-                            <input class="input" type="text" id="name">
-                        </div>
-
-                        <div class="col-5">
-                            <label class="label" for="surname">Cognome</label>
-                            <input class="input" type="text" id="surname">
-                        </div>
-
-                        
-                        <div class="col-12 d-flex flex-column align-items-center mt-5">
-                            <label class="label" for="email">Email</label>
-                            <input class="input-email" type="email" id="email">
-                        </div>
-
-                    </div>
+                <div class="d-flex justify-content-evenly align-items center my-5">
+                    <a target="blank" href="https://github.com/Christian-web-hype"><i class="bi bi-github social-canvas"></i></a>
+                    <a target="blank" href="https://www.linkedin.com/in/christian-casano-web-developer/"><i class="bi bi-linkedin social-canvas"></i></a>
+                    <a target="blank" href="https://www.instagram.com/casano_christian/"><i class="bi bi-instagram social-canvas"></i></a>
                 </div>
-
-                <div class="mt-5 w-100 d-flex justify-content-end">
-                    <button class="submit-btn">Iscriviti</button>
-                </div>
-
             </div>
         </div>
     </div>

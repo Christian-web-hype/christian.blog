@@ -1,16 +1,47 @@
-.header{
+header{
+    height: 150vh;
+    background:url(/public/media/motivologo.png);
+    background-size: 100% 100%;
+}
+
+.sec1{
     height: 100vh;
+    background:url(/public/media/motivo1.png);
+    background-size: 100% 100%;
+}
+
+.sec2{
+    height: 100vh;
+    background: url(/public/media/motivo4.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+}
+
+.sec3{
+    height: 100vh;
+    /* background: url(/public/media/motivo2.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 0px 0px; */
+}
+
+.scuro{
+    background: var(--bg);
+    height: 100%;
 }
 
 .btn-link,.btn-link:hover,.btn-link:active,.btn-link:focus{
     font-family: var(--fm);
-    color: var(--sec);
+    color: var(--acc);
     text-decoration: none;
     background: transparent;
     backdrop-filter: blur(3px);
-    border: 3px var(--sec) solid;
-    border-radius: 30px;
+    border: 2px var(--acc) solid;
+    border-radius: 50%;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline 2px var(--acc);
 }
 
 .pres{
@@ -30,11 +61,61 @@
 }
 
 .portfolio-link{
-    color: var(--sec);
+    color: var(--acc);
     position: absolute;
     top: 40%;
-    right: -155px;
+    right: -166px;
     font-size: 25px;
     font-family: var(--fm);
     letter-spacing: 2px;
+}
+
+.tit1{
+    font-family: var(--fm);
+    color: var(--sec);
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.p1{
+    font-family: var(--fm);
+    color: var(--sec);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.profilo{
+    width: 400px;
+    border-bottom: var(--acc) solid 3px;
+}
+
+.who-link{
+    position: absolute;
+    bottom: 20px;
+    left: 145px;
+}
+
+.foto1{
+    rotate: 10deg;
+    width: 200px;
+    height: 200px;
+    background: var(--sec);
+}
+
+.foto2{
+    rotate: -10deg;
+    width: 200px;
+    height: 200px;
+    background: var(--acc);
+}
+
+.foto3{
+    rotate: 10deg;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.logo-comp{
+    width: 200px;
 }

@@ -68,7 +68,7 @@
     font-family: var(--fm);
     color: var(--main);
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .label{
@@ -102,9 +102,14 @@
 .submit-btn{
     background: transparent;
     font-family: var(--fm);
-    border: solid 2px var(--main);
-    border-radius: 20px;
-    color: var(--main);
+    border: solid 2px var(--acc);
+    border-radius: 50%;
+    color: var(--acc);
     font-size: 20px;
     padding: 2px 6px;
+}
+
+.social-canvas{
+    font-size: 40px;
+    color: var(--main);
 }
