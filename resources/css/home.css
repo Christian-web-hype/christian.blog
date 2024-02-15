@@ -19,7 +19,7 @@
 }
 
 .sec3{
-    height: 100vh;
+    height: 120vh;
     /* background: url(/public/media/motivo2.png) no-repeat;
     background-size: 100% 100%;
     background-position: 0px 0px; */
@@ -118,5 +118,25 @@
 }
 
 .logo-comp{
-    width: 200px;
+    width: 100px;
+    padding: 5px;
+}
+
+.bg-loghi{
+    background:#e8e5e191;
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    border: solid 1px var(--bg);
+    box-shadow: #9b9389be 0px 0px 7px 1px;
+}
+
+.grafic-web{
+    width: 500px;
+    box-shadow: #7c766dbe 0px 0px 20px 4px;
+}
+
+.grafic-web1{
+    width: 400px;
+    box-shadow: #7c766dbe 0px 0px 20px 4px;
 }

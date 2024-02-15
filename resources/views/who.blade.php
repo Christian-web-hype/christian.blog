@@ -15,41 +15,28 @@
 
     <section class="container-fluid sec-who1 pt-5">
         <div class="row">
-
+{{-- 
             <div class="col-12 my-5">
                 <h2 class="tit-who text-center">Perché Scegliermi?</h2>
-            </div>
-
-            <div class="col-6 my-5">
-
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="foto1"></div>
-                    <div class="foto2"></div>
-                </div>
-
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="foto2"></div>
-                    <div class="foto1"></div>
-                </div>
-                
-            </div>
+            </div> --}}
 
             <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="tit-who text-center mt-5">Perché Scegliermi?</h2>
 
-                <h3 class="tit-who text-center"><span class="grassetto">Creatività</span> e <span class="grassetto">Precisione</span> al Tuo Servizio</h3>
+                <h3 class="tit-who text-center my-3"><span class="grassetto">Creatività</span> e <span class="grassetto">Precisione</span> al Tuo Servizio</h3>
 
-                <p class="p-who text-center px-3 mt-2">Collaborare con me significa non solo ottenere un prodotto finale di <span class="grassetto">qualità</span>, ma anche beneficiare di un approccio <span class="grassetto">creativo</span> e di competenze in ottimizzazione <span class="grassetto">SEO</span>. La mia esperienza con i linguaggi di programmazione e i tool di progettazione mi consente di creare <span class="grassetto">soluzioni digitali su misura</span>, garantendo che la tua presenza online si distingua in modo memorabile.</p>
-
-            </div>
-
-            <div class="col-12 my-5 d-flex flex-column justify-content-center align-items-center">
-                <h2 class="tit-who text-center">Qual è La mia Missione?</h2>
-
-                <div class="col-6 my-3">
-                    <p class="p-who text-center">"La mia missione è <span class="grassetto">trasformare idee</span> in esperienze digitali straordinarie. Ogni progetto è un'opportunità per coniugare la funzionalità con <span class="grassetto">l'estetica</span>, creando soluzioni web uniche e coinvolgenti. Grazie alla mia formazione approfondita e alla <span class="grassetto">passione per l'innovazione</span>, sono in grado di sviluppare siti web che non solo soddisfano le esigenze funzionali, ma anche lasciano un'impronta artistica distintiva."</p>
-                </div>
+                <p class="p-who text-center px-3">Collaborare con me significa non solo ottenere un prodotto finale di <span class="grassetto">qualità</span>, ma anche beneficiare di un approccio <span class="grassetto">creativo</span> e di competenze in ottimizzazione <span class="grassetto">SEO</span>. La mia esperienza con i linguaggi di programmazione e i tool di progettazione mi consente di creare <span class="grassetto">soluzioni digitali su misura</span>, garantendo che la tua presenza online si distingua in modo memorabile.</p>
 
             </div>
+
+            <div class="col-6 my-3">
+                <h2 class="tit-who text-center mt-5">Qual è La mia Missione?</h2>
+
+                <h3 class="tit-who text-center my-3"><span class="grassetto">Elevare</span> il Web con <span class="grassetto">Innovazione</span>.</h3>
+
+                <p class="p-who text-center px-3">"La mia missione è <span class="grassetto">trasformare idee</span> in esperienze digitali straordinarie. Ogni progetto è un'opportunità per coniugare la funzionalità con <span class="grassetto">l'estetica</span>, creando soluzioni web uniche e coinvolgenti. Grazie alla mia formazione approfondita e alla <span class="grassetto">passione per l'innovazione</span>, sono in grado di sviluppare siti web che non solo soddisfano le esigenze funzionali, ma anche lasciano un'impronta artistica distintiva."</p>
+            </div>
+
 
         </div>
     </section>

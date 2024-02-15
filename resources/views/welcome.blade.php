@@ -22,23 +22,13 @@
   <div class="scuro">
     <section class="container-fluid pt-5 sec1">
       <div class="row">
-        <div class="col-12 mb-5">
+
+        <div class="col-7 d-flex justify-content-center align-items-center my-5">
+          <img class="grafic-web" src="media/WebGraphic-01.jpg" alt="">
+        </div>
+
+        <div class="col-5 d-flex flex-column justify-content-center align-items-center">
           <h2 class="text-center tit1">Sviluppo Web su Misura</h2>
-        </div>
-
-        <div class="col-7 position-relative d-flex justify-content-center align-items-center my-5">
-          <div>
-            <div class="foto1"></div>
-            <div class="foto2"></div>
-          </div>
-
-          <div>
-            <div class="foto2"></div>
-            <div class="foto1"></div>
-          </div>
-        </div>
-
-        <div class="col-5 d-flex justify-content-center align-items-center">
           <p class="text-center p1 mt-5 px-5">Con il mio servizio di <span class="grassetto">sviluppo web personalizzato</span>, trasformo le tue idee in esperienze digitali straordinarie. Utilizzo le ultime tecnologie per garantire siti web <span class="grassetto">performanti</span>, <span class="grassetto">intuitivi</span> e <span class="grassetto">unici</span>. La tua presenza online sarà non solo funzionale ma anche affascinante. Affidati a un <span class="grassetto">web designer</span> e <span class="grassetto">developer</span> per dare vita alla tua visione digitale!</p>
         </div>
 
@@ -50,11 +40,9 @@
 
   <section class="container-fluid sec2">
     <div class="row">
-      <div class="col-12 mt-5">
-        <h2 class="text-center tit1">Scopri chi sono</h2>
-      </div>
 
-      <div class="col-5 d-flex justify-content-end align-items-center my-5">
+      <div class="col-5 d-flex flex-column justify-content-end align-items-center my-5">
+        <h2 class="text-center tit1">Scopri chi sono</h2>
         <p class="p1 text-center px-5 mt-5">Sono un appassionato <span class="grassetto">Web Developer</span> e <span class="grassetto">Web Designer freelancer</span>, fiducioso nelle mie capacità creative. Sono determinato a <span class="grassetto">trasformare</span> ogni progetto in un'opera d'arte digitale. Scopri il potenziale delle mie idee e il mio impegno nel creare soluzioni web uniche e coinvolgenti.</p>
       </div>
 
@@ -69,32 +57,63 @@
   </section>
 
 <div class="scuro">
-  <section class="container-fluid sec3 pt-5">
-    <div class="row">
+  <section class="container-fluid sec3 py-5">
+    <div class="row justify-content-center">
+
       <div class="col-12">
         <h2 class="tit1 text-center my-5">Tecnologie di Sviluppo che utilizzo</h2>
       </div>
 
-      {{-- <div class="col-6">
-        <div>
-          <img class="logo-comp" src="media/logohtml.png" alt="">
-          <img class="logo-comp" src="media/csslogo.png" alt="">
-          <img class="logo-comp" src="media/jslogo.png" alt="">
+      <div class="col-6 d-flex justify-content-center align-items-end">
+        <img class="grafic-web1" src="media/software.jpg" alt="">
+      </div>
+
+      <div class="col-6">
+        <div class="d-flex justify-content-evenly align-items-center">
+
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/htmllogo.png" alt="">
+          </div>
+
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/csslogo.png" alt="">
+          </div>
+
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/jslogo.png" alt="">
+          </div>
         </div>
 
-        <div>
-          <img class="logo-comp" src="media/phplogo.png" alt="">
-          <img class="logo-comp" src="media/mysqllogo.png" alt="">
-          <img class="logo-comp" src="media/bootstraplogo.png" alt="">
+        <div class="d-flex justify-content-evenly align-items-center my-5">
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/phplogo.png" alt="">
+          </div>
+
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/mysqllogo.png" alt="">
+          </div>
+
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/bslogo.png" alt="">
+          </div>
         </div>
 
-        <div>
-          <img class="logo-comp" src="media/laravellogo.png" alt="">
-          <img class="logo-comp" src="media/pslogo.png" alt="">
-          <img class="logo-comp" src="media/ailogo.png" alt="">
+        <div class="d-flex justify-content-evenly align-items-center">
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/laravellogo.png" alt="">
+          </div>
+
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/pslogo.png" alt="">
+          </div>
+
+          <div class="bg-loghi d-flex justify-content-center align-items-center">
+            <img class="logo-comp" src="media/ailogo.png" alt="">
+          </div>
         </div>
 
-      </div> --}}
+      </div>
+
   </section>
 </div>
 </x-layout>
