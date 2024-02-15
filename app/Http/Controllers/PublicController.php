@@ -14,10 +14,6 @@ class PublicController extends Controller
         return view('portfolio');
     }
 
-    public function contact() {
-        return view('contact');
-    }
-
     public function who() {
         return view('who');
     }

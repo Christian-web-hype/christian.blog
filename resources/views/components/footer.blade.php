@@ -5,7 +5,6 @@
                 <li class="link-footer-item"><a href="{{route('home')}}">Home</a></li>               
                 <li class="link-footer-item my-3"><a href="{{route('portfolio')}}">Portfolio</a></li>
                 <li class="link-footer-item mb-3"><a href="{{route('who')}}">Chi Sono</a></li>
-                <li class="link-footer-item"><a href="{{route('contact')}}">Contattami</a></li>
             </ul>
         </div>
         

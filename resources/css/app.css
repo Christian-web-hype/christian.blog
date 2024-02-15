@@ -3,6 +3,7 @@
 @import 'navbar.css';
 @import 'home.css';
 @import 'footer.css';
+@import 'who.css';
 
 :root{
     --main: #E8E5E1;

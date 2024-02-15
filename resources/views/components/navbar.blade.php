@@ -27,8 +27,9 @@
                 <li class="link-list-item"><a href="{{route('home')}}">Home</a></li>               
                 <li class="link-list-item my-3"><a href="{{route('portfolio')}}">Portfolio</a></li>
                 <li class="link-list-item mb-3"><a href="{{route('who')}}">Chi Sono</a></li>
-                <li class="link-list-item"><a href="{{route('contact')}}">Contattami</a></li>
             </ul>
+
+            
 
             <div class="col-8 mt-5">
                  <h3 class="canvas-title text-center">Seguimi e resta aggiornato!</h3>
@@ -39,6 +40,12 @@
                     <a target="blank" href="https://www.instagram.com/casano_christian/"><i class="bi bi-instagram social-canvas"></i></a>
                 </div>
             </div>
+
+            <ul class="col-12 mt-4">
+                <li class="link-list-item">+39 348 491 0086</li>
+                <li class="link-list-item mt-2">christian.casano5@gmail.com</li>
+            </ul>
+
         </div>
     </div>
 

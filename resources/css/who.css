@@ -1,0 +1,28 @@
+.header-who{
+    height: 120vh;
+    background: url(/public/media/motivo3.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.tit-who{
+    font-family: var(--fm);
+    color: var(--sec);
+    letter-spacing: 2px;
+}
+
+.grassetto{
+    color: var(--acc);
+    font-weight: bold;
+}
+
+.p-who{
+    font-family: var(--fm);
+    color: var(--sec);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.sec-who1{
+    background: var(--bg);
+}
