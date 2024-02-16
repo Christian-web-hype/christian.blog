@@ -60,58 +60,45 @@
   <section class="container-fluid sec3 py-5">
     <div class="row justify-content-center">
 
-      <div class="col-12">
-        <h2 class="tit1 text-center my-5">Tecnologie di Sviluppo che utilizzo</h2>
-      </div>
+      <h2 class="tit1 text-center my-5">Tecnologie di Sviluppo che utilizzo</h2>
 
-      <div class="col-6 d-flex justify-content-center align-items-end">
-        <img class="grafic-web1" src="media/software.jpg" alt="">
-      </div>
-
-      <div class="col-6">
-        <div class="d-flex justify-content-evenly align-items-center">
-
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/htmllogo.png" alt="">
-          </div>
-
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/csslogo.png" alt="">
-          </div>
-
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/jslogo.png" alt="">
-          </div>
+      <div class="col-12 d-flex justify-content-evenly align-items-center">
+        
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/htmllogo.png" alt="">
         </div>
 
-        <div class="d-flex justify-content-evenly align-items-center my-5">
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/phplogo.png" alt="">
-          </div>
-
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/mysqllogo.png" alt="">
-          </div>
-
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/bslogo.png" alt="">
-          </div>
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/csslogo.png" alt="">
         </div>
 
-        <div class="d-flex justify-content-evenly align-items-center">
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/laravellogo.png" alt="">
-          </div>
-
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/pslogo.png" alt="">
-          </div>
-
-          <div class="bg-loghi d-flex justify-content-center align-items-center">
-            <img class="logo-comp" src="media/ailogo.png" alt="">
-          </div>
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/jslogo.png" alt="">
         </div>
 
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/phplogo.png" alt="">
+        </div>
+
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/mysqllogo.png" alt="">
+        </div>
+
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/bslogo.png" alt="">
+        </div>
+
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/laravellogo.png" alt="">
+        </div>
+
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/pslogo.png" alt="">
+        </div>
+
+        <div class="bg-loghi d-flex justify-content-center align-items-center">
+          <img class="logo-comp" src="media/ailogo.png" alt="">
+        </div>
       </div>
 
   </section>
