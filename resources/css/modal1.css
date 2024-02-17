@@ -1,0 +1,160 @@
+.nav-mod1{
+    height: 10vh;
+}
+
+.bgmod1{
+    background: var(--mods1);
+}
+
+.sec-h-mod1{
+    height: 70vh;
+}
+
+.header-mod1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.555),transparent,rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.788)),url(/public/modal1/header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.menu-mod1{
+    color: var(--modm1);
+}
+
+.logo-mod1{
+    color: var(--modm1);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(--fm1);
+    letter-spacing: 1px;
+}
+
+.ev-mod1{
+    color: var(--modm1);
+    font-weight: bold;
+}
+
+.tit-mod1{
+    color: var(--modt1);
+    font-size: 50px;
+    font-family: var(--fm1);
+    letter-spacing: 1px;
+}
+
+.btn-header-mod1{
+    background-color: var(--modm1);
+    color: var(--mods1);
+    font-weight: bold;
+    font-family: var(--fm1);
+    letter-spacing: 1px;
+    border: none;
+    box-shadow: #7e7a095d 0px 0px 5px 3px;
+}
+
+.sec1-mod1{
+    background: var(--mods1);
+}
+
+.un-tit-modal1{
+    font-weight: bold;
+    color: var(--modbg1);
+    font-family: var(--fm1);
+    letter-spacing: 1px;
+    font-size: 80px;
+}
+
+.tit-modal1{
+    font-weight: bold;
+    color: var(--modt1);
+    font-family: var(--fm1);
+    letter-spacing: 1px;
+    font-size: 70px;
+    position: absolute;
+    top: 40px;
+    right: 225px;
+}
+
+.sec1-img-mod1{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom,transparent,rgba(255, 255, 255, 0.080),transparent,rgba(255, 255, 255, 0.080),transparent),url(/public/modal1/sec1.jpg);
+    background-size: cover;
+    box-shadow: #7e7a095d 0px 0px 20px 5px;
+   
+}
+
+.step1-mod1{
+    color: var(--modm1);
+    font-family: var(--fm1);
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -100px;
+    right: -340px;
+    rotate: -10deg;
+    z-index: 90;
+    letter-spacing: 4px;
+}
+
+.p-mod1{
+    font-family: var(--fm1);
+    letter-spacing: 1px;
+    color: var(--modt1);
+    font-size: 20px;
+    z-index: 99;
+}
+
+.sec2-mod1{
+    background: linear-gradient(10deg, var(--mods1)33%, var(--modbg1)33%, var(--modbg1)48%,var(--modbg1)48%,var(--modbg1)66%,var(--mods1)66%);
+}
+
+.activity-mod1{
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to bottom,transparent,rgba(255, 255, 255, 0.080),transparent,rgba(255, 255, 255, 0.080),transparent),url(/public/modal1/coach.jpg);
+    background-size: cover;
+    box-shadow: #7e7a095d 0px 0px 5px 2px;
+    border: 1px solid var(--modm1);
+}
+
+.activity1-mod1{
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to bottom,transparent,rgba(255, 255, 255, 0.080),transparent,rgba(255, 255, 255, 0.080),transparent),url(/public/modal1/coach1.jpg);
+    background-size: cover;
+    box-shadow: #7e7a095d 0px 0px 5px 2px;
+    border: 1px solid var(--modm1);
+}
+
+.activity2-mod1{
+    width: 800px;
+    height: 250px;
+    background: linear-gradient(to bottom,transparent,rgba(255, 255, 255, 0.080),transparent,rgba(255, 255, 255, 0.080),transparent),url(/public/modal1/coach2.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: #7e7a095d 0px 0px 5px 2px;
+    border: 1px solid var(--modm1);
+    background-position:bottom;
+}
+
+.fot-mod1{
+    height: 25vh;
+    background-color: var(--modm1);
+}
+
+.link-mod1{
+    list-style-type: none;
+    font-family: var(--fm1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-mod1{
+    color: var(--mods1);
+    font-size: 30px;
+}
+
+.firma-foot-mod1{
+    font-family: var(--fm1);
+    color: var(--sec);
+    letter-spacing: 2px;
+}

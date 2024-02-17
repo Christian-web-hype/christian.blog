@@ -29,7 +29,7 @@
         </div>
 
         <div class="col-12 mt-5  text-center">
-            <h6 class="firma-foot">@2024 creato da christian casano web designer e developer</h6>
+            <h6 class="firma-foot">@2024 created by christian casano web designer developer</h6>
         </div>
     </div>
 </footer>

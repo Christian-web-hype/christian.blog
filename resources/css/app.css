@@ -5,6 +5,7 @@
 @import 'footer.css';
 @import 'who.css';
 @import 'portfolio.css';
+@import 'modal1.css';
 
 :root{
     --main: #E8E5E1;
