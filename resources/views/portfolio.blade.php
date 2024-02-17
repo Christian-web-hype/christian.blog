@@ -31,8 +31,8 @@
                 </div>
 
                 <div class="col-5 d-flex flex-column justify-content-center align-items-center">
-                    <h2 class="tit-portfolio text-center">GymPro Template</h2>
-                    <p class="p-portfolio mt-2">Esplora l'energia esplosiva del tuo progetto online con GymPro, con un design eccezionale crea un impatto straordinario sul web, con la potenza di GymPro, progettato su misura per massimizzare la tua presenza online. Con un design accattivante e prestazioni ottimizzate, il tuo sito web si distinguerà. Scegli GymPro per un'esperienza digitale che va oltre le aspettative, portando il tuo progetto al livello successivo.</p>
+                    <h2 class="tit-portfolio text-center"><span class="grassetto">GymPro</span> Template</h2>
+                    <p class="p-portfolio mt-2">Esplora l'energia esplosiva del tuo progetto online con GymPro e crea un impatto straordinario sul web, con la <span class="grassetto">potenza</span> di GymPro, progettato <span class="grassetto">su misura</span> per massimizzare la tua presenza online. Design <span class="grassetto">accattivante</span> e <span class="grassetto">prestazioni ottimizzate</span>, il tuo sito web si distinguerà. Scegli GymPro per un'esperienza digitale che va oltre le aspettative, portando il tuo progetto al livello successivo.</p>
                 </div>
                 
                 <div class="col-12 d-flex justify-content-center">
