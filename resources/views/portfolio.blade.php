@@ -163,11 +163,11 @@
         <div class="modal-content">
             
             <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close btn-close-modal d-flex justify-content-center align-items-center" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
             </div>
             
-            <div class="modal-body modal-dialog modal-dialog-scrollable">
-                bom
+            <div class="modal-body m-0 p-0 modal-dialog modal-dialog-scrollable">
+                
             </div>
             
         </div>
