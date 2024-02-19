@@ -166,8 +166,37 @@
                 <button type="button" class="btn-close btn-close-modal d-flex justify-content-center align-items-center" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
             </div>
             
-            <div class="modal-body m-0 p-0 modal-dialog modal-dialog-scrollable">
-                
+            <div class="modal-body bodym2 position-relative m-0 p-0 modal-dialog modal-dialog-scrollable">
+                {{-- nav --}}
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 nav-mod2 d-flex flex-column align-items-center justify-content-evenly">
+                            <img class="logo-mod2 mb-5 pb-5" src="modal2/logo-mod2.png" alt="">
+                            <i class="bi bi-facebook social-mod2"></i>
+                            <i class="bi bi-instagram social-mod2"></i>
+                            <i class="bi bi-twitter social-mod2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- header --}}
+                <div class="container-fluid header-mod2">
+                    <div class="row h-100">
+                        <div class="col-12 mt-5 d-flex justify-content-center align-items-end h-100">
+                                <h2 class="tit-mod2 mt-5"><span class="ev1-mod2">LOREM</span></h2>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- sec1 --}}
+                <div class="container-fluid sec1-mod2">
+                    <div class="row">
+                        <div class="col-12">
+                            
+                        </div>
+                    </div>
+                </div>
+
             </div>
             
         </div>
@@ -183,8 +212,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             
-            <div class="modal-body modal-dialog modal-dialog-scrollable">
-                bom
+            <div class="modal-body m-0 p-0 modal-dialog modal-dialog-scrollable">
+                
             </div>
             
         </div>

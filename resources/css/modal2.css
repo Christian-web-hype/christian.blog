@@ -1,0 +1,73 @@
+:root{
+    --modm2:#f4fcfa;
+    --mods2:#000000;
+    --modacc2:#FDC334;
+    --fm2:"Protest Riot", sans-serif;
+}
+
+.nav-mod2{
+    background: var(--modm2);
+    height: 70vh;
+    width: 100px;
+    position: fixed;
+}
+.bodym2{
+    height: 200vh;
+    background: var(--mods2);
+}
+.logo-mod2{
+    width: 50px;
+}
+
+.social-mod2{
+    font-size: 40px;
+}
+
+.tit-mod2{
+    font-size: 85px;
+    color: transparent;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--modm2);
+    letter-spacing: 15px;
+    z-index: 999;
+    font-family: var(--fm2);
+}
+
+.header-mod2{
+    height: 87vh;
+    background: url(/public/modal2/header-mod2.jpg)no-repeat,url(/public/modal2/header1-mod2.jpg)no-repeat,url(/public/modal2/header1-mod2.jpg)no-repeat;
+    background-size: contain;
+    background-position: center,left,right;
+    background-attachment: fixed;
+}
+
+.ev1-mod2{
+    font-size: 85px;
+    background:var(--modm2);
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    -webkit-text-stroke-color: var(--mods2);
+    letter-spacing: 15px;
+}
+
+.btn-mod2-head{
+    border: none;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    font-family: var(--fm2);
+    font-weight: bold;
+    color:transparent;
+    font-size: 50px;
+    background: linear-gradient(45deg,var(--modacc2)40%,var(--modm2)40%);
+    border: var(--modm2) solid 3px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--mods2);
+}
+
+.sec1-mod2{
+    height: 80vh;
+}

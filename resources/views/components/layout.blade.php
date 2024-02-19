@@ -9,7 +9,7 @@
     {{-- google font --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost:ital,wght@0,100..900;1,100..900&family=Protest+Riot&display=swap" rel="stylesheet">
     <title>Christian Casano</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
