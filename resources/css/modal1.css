@@ -28,9 +28,11 @@
 
 .menu-mod1{
     color: var(--modm1);
+    padding-right: 30px;
 }
 
 .logo-mod1{
+    padding-left: 30px;
     color: var(--modm1);
     font-size: 40px;
     font-weight: bold;
@@ -166,4 +168,72 @@
     font-family: var(--fm1);
     color: var(--sec);
     letter-spacing: 2px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .logo-mod1{
+        margin-top: 5px
+    }
+    
+    .un-tit-modal1{
+        font-size: 70px;
+        margin-top: 20px!important;
+    }
+
+    .tit-modal1{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 65px;
+    }
+
+    .step1-mod1{
+        color: var(--modm1);
+        font-family: var(--fm1);
+        font-size: 150px;
+        font-weight: bold;
+        position: absolute;
+        bottom: -150px;
+        right: -250px;
+        rotate: -10deg;
+        z-index: 90;
+        letter-spacing: 4px;
+    }
+
+    .activity-mod1{
+        margin: 30px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .activity1-mod1{
+        margin: 30px;
+        margin-bottom: 30px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .activity2-mod1{
+        margin: 30px;
+        margin-bottom: 30px;
+        width: 660px;
+        height: 300px;
+    }
+
+    .link-mod1{
+        margin: 10px!important;
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+        font-size: 30px;
+    }
+
+    .social-mod1{
+        font-size: 40px;
+    }
+
+    .firma-foot-mod1{
+        font-size: 20px;
+    }
 }

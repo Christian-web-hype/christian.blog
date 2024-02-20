@@ -1,6 +1,6 @@
 <footer class="container-fluid">
     <div class="row">
-        <div class="col-4">
+        <div class="col-4 col-fot-tab">
             <ul class="text-center mt-5">
                 <li class="link-footer-item"><a href="{{route('home')}}">Home</a></li>               
                 <li class="link-footer-item my-3"><a href="{{route('portfolio')}}">Portfolio</a></li>
@@ -8,7 +8,7 @@
             </ul>
         </div>
         
-        <div class="col-4 d-flex justify-content-center align-items-center flex-column">
+        <div class="col-4 col-fot-tab d-flex justify-content-center align-items-center flex-column">
             <div>
                 <h4 class="footer-tit">Social</h4>
             </div>
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-4 col-fot-tab d-flex justify-content-center align-items-center">
             <ul class="text-center">
                 <li class="link-footer-item2">P.IVA e C.F. 14643331003</li>
                 <li class="link-footer-item2">+39 348 491 0086</li>

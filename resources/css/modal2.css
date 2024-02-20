@@ -2,6 +2,10 @@
     --modm2:#f4fcfa;
     --mods2:#000000;
     --modacc2:#FDC334;
+    --modtrd2:#FD6534;
+    --modfrd2:#4DBDBF;
+    --modfive2:#5C8D67;
+    --modbg2:#ffbfb4;
     --fm2:"Protest Riot", sans-serif;
 }
 
@@ -10,10 +14,20 @@
     height: 70vh;
     width: 100px;
     position: fixed;
+    z-index: 99;
 }
+
+.nav1-mod2{
+    height: 10vh;
+    width: 100%;
+    background: var(--modm2);
+    position: absolute;
+    top: 0;
+    z-index: 98;
+}
+
 .bodym2{
-    height: 200vh;
-    background: var(--mods2);
+    background: var(--modm2);
 }
 .logo-mod2{
     width: 50px;
@@ -53,7 +67,7 @@
     letter-spacing: 15px;
 }
 
-.btn-mod2-head{
+.btn-mod2{
     border: none;
     width: 170px;
     height: 170px;
@@ -62,12 +76,178 @@
     font-weight: bold;
     color:transparent;
     font-size: 50px;
-    background: linear-gradient(45deg,var(--modacc2)40%,var(--modm2)40%);
-    border: var(--modm2) solid 3px;
+    background: linear-gradient(45deg,var(--modm2)40%,var(--modm2)40%);
+    border: var(--mods2) solid 3px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--mods2);
+    position: absolute;
+    bottom: -85px;
 }
 
 .sec1-mod2{
-    height: 80vh;
+    height: 100vh;
+    background: url(/public/modal2/3.jpg)no-repeat;
+    background-size: 70% 200%;
+    background-position: 325px -140px;
+    background-attachment: fixed;
+}
+
+.collage1-mod2{
+    background: var(--modtrd2);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 130px;
+    left: -150px;
+    z-index: 89;
+    border:solid 1px var(--modm2);
+}
+
+.h-mod2{
+    color: var(--modm2);
+    font-family: var(--fm2);
+}
+
+.p-mod2{
+    color: var(--modm2);
+    font-family: var(--fm2);
+}
+
+.sec2-mod2{
+    height: 100vh;
+}
+
+.img-sec2-mod2{
+    background: url(/public/modal2/0.jpg)no-repeat;
+    background-size: 70% 200%;
+    background-position: 0px -200px;
+    background-attachment: fixed;
+}
+
+.img-sec3-mod2{
+    background: url(/public/modal2/2.jpg)no-repeat;
+    background-size: 80% 230%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.collage2-mod2{
+    background: var(--modfive2);
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    bottom: 70px;
+    right: -200px;
+    z-index: 90;
+    border:solid 1px var(--modm2);
+}
+
+.collage3-mod2{
+    background: var(--modacc2);
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    bottom: 100px;
+    left: -50px;
+    z-index: 90;
+    border:solid 1px var(--modm2);
+}
+
+.fot-mod2{
+    height: 25vh;
+}
+
+.link-mod2{
+    list-style-type: none;
+    font-family: var(--fm2);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-mod2{
+    color: var(--mods2);
+    font-size: 30px;
+}
+
+.firma-foot-mod2{
+    font-family: var(--fm2);
+    color: var(--mods2);
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    
+    .sec1-mod2{
+        height: 80vh;
+        background-size: cover;
+        background-position: top;
+        margin-bottom: 150px!important;
+    }
+
+    .sec2-mod2{
+        height: 80vh;
+        margin-bottom: 150px!important;
+    }
+
+    .collage1-mod2{
+        background: var(--modtrd2);
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        bottom: 0px;
+        left: 325px;
+        z-index: 89;
+    }
+
+    .collage2-mod2{
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        bottom: 0px;
+        left: 325px;
+        z-index: 89;
+    }
+
+    .collage3-mod2{
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        bottom: 0px;
+        left: 325px;
+        z-index: 89;
+    }
+
+    .btn-mod2{
+        z-index: 99;
+    }
+
+    .row-tab-mod2{
+        display: flex;
+        justify-content: center!important;
+    }
+
+    .img-sec2-mod2{
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img-sec3-mod2{
+        background-size: cover;
+        background-position: center;
+    }
+
+    .link-mod2{
+        margin: 10px!important;
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+        font-size: 30px;
+    }
+
+    .social-mod2{
+        font-size: 40px;
+    }
+
+    .firma-foot-mod2{
+        font-size: 20px;
+    }
 }

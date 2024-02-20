@@ -37,3 +37,44 @@ footer{
     color: var(--sec);
     letter-spacing: 2px;
 }
+
+/* media query tablet */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+    .link-footer-item,.link-footer-item > a{
+        list-style-type: none;
+        color: var(--sec);
+        font-family: var(--fm);
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .social-canvas-footer{
+        font-size: 30px;
+        color: var(--sec);
+    }
+    
+    .link-footer-item2{
+        list-style-type: none;
+        color: var(--sec);
+        font-family: var(--fm);
+        letter-spacing: 1px;
+        font-size: 18px;
+        text-decoration: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .col-fot-tab{
+        width: 32%;
+    }
+
+    .firma-foot{
+        font-size: 20px;
+        font-family: var(--fm);
+        color: var(--sec);
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+}

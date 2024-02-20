@@ -26,3 +26,24 @@
 .sec-who1{
     background: var(--bg);
 }
+
+/* tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+    .tit-who{
+        margin-top: 50px;
+        font-family: var(--fm);
+        color: var(--sec);
+        letter-spacing: 2px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header-who{
+        height: 80vh;
+        background: url(/public/media/motivo3.png) no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+}

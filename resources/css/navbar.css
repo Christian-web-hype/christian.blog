@@ -113,3 +113,39 @@
     font-size: 40px;
     color: var(--main);
 }
+/* tablet */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .menu{
+        font-size: 50px;
+    }
+
+    .navbar{
+        height: 10vh;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .menu-contain{
+        margin-top: 7px;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        position: fixed;
+        top: 0;
+    }
+
+    .menu-canvas{
+        margin-top: 175px;
+        margin-right: 65px;
+        width: 80vw !important;
+        height: 60vh;
+        background: var(--sec);
+    }
+
+    .logo-canvas{
+        margin-top: 25px;
+        width: 400px;
+    }
+}

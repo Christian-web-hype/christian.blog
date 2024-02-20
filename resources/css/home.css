@@ -91,32 +91,6 @@
     left: 145px;
 }
 
-.foto1{
-    rotate: 10deg;
-    width: 200px;
-    height: 200px;
-    background: var(--sec);
-}
-
-.foto2{
-    rotate: -10deg;
-    width: 200px;
-    height: 200px;
-    background: var(--acc);
-}
-
-.foto3{
-    rotate: 10deg;
-    width: 200px;
-    height: 200px;
-    background: red;
-}
-
-.logo-comp{
-    width: 60px;
-    padding: 5px;
-}
-
 .bg-loghi{
     background:#e8e5e191;
     width: 70px;
@@ -134,4 +108,57 @@
 .grafic-web1{
     width: 400px;
     box-shadow: #7c766dbe 0px 0px 20px 4px;
+}
+
+
+/* media query tablet */
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    
+    .pres{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 700px;
+    }
+
+    .header-home{
+        height: 105vh;
+        background:url(/public/media/motivologo.png) no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .grafic-web{
+        width: 300px;
+        box-shadow: #7c766dbe 0px 0px 20px 4px;
+    }
+
+    .p1{
+        margin-top: 10px!important;
+        width: 400px;
+        font-family: var(--fm);
+        color: var(--sec);
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding: 0!important;
+        width: 100%;
+    }
+
+    .tit1{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .profilo{
+        width: 350px;
+    }
+
+    .sec2{
+        height: 60vh;
+        background: url(/public/media/motivo4.png) no-repeat;
+        background-size:contain;
+        background-position: bottom;
+    }
+
 }
