@@ -6,6 +6,9 @@
 }
 
 .tit-who{
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(100px);
     font-family: var(--fm);
     color: var(--sec);
     letter-spacing: 2px;
@@ -17,14 +20,33 @@
 }
 
 .p-who{
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(100px);
     font-family: var(--fm);
     color: var(--sec);
     letter-spacing: 2px;
     font-size: 20px;
 }
 
+.in-page.tit-who,.in-page.p-who{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .sec-who1{
     background: var(--bg);
+}
+
+.prof-who{
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(0.5);
+}
+
+.in-page.prof-who{
+    opacity: 1;
+    transform: scale(1);
 }
 
 /* tablet */

@@ -1,5 +1,11 @@
 .navbar{
+    opacity: 0;
+    transition: 0.5s;
     height: 15vh;
+}
+
+.in-page .navbar{
+    opacity: 1;
 }
 
 .logo{
@@ -17,6 +23,13 @@
     left: 20px;
     position: fixed;
     top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.in-page.menu-contain{
+    opacity: 1;
 }
 
 .menu-btn,.menu-btn:focus,.menu-btn:active{
@@ -33,7 +46,14 @@
 }
 
 .logo-canvas{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
     width: 400px;
+}
+
+.in-page.logo-canvas{
+    opacity: 1;
 }
 
 .btn-close-canvas{
@@ -64,11 +84,42 @@
     text-decoration: none;
 }
 
+.foot-canvas{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 1s;
+    transform: translateX(50px);
+}
+
+.in-page.foot-canvas{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.anim-link-canv{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    transform: translateX(-50px);
+}
+
+.in-page.anim-link-canv{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 .canvas-title{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
     font-family: var(--fm);
     color: var(--main);
     letter-spacing: 2px;
     font-size: 30px;
+}
+
+.in-page.canvas-title{
+    opacity: 1;
 }
 
 .label{
@@ -110,9 +161,17 @@
 }
 
 .social-canvas{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
     font-size: 40px;
     color: var(--main);
 }
+
+.in-page.social-canvas{
+    opacity: 1;
+}
+
 /* tablet */
 @media screen and (min-width: 600px) and (max-width: 1024px){
     .menu{
