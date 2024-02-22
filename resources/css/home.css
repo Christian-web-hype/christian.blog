@@ -44,13 +44,30 @@
     opacity: 0;
     width: 800px;
     transition: 0.5s;
-    transform: scale(0.5);
+    transition-delay: 0.5s;
 }
 
 .in-page.pres{
     opacity: 1;
-    transform: scale(1);
+    -webkit-animation:bounce-in 1s ease 0s 1 normal;
+    -moz-animation:bounce-in 1s ease 0s 1 normal;
+    -ms-animation:bounce-in 1s ease 0s 1 normal;
+    animation:bounce-in 1s ease 0s 1 normal;
 }
+
+@-webkit-keyframes bounce-in {
+    0%{ opacity: 0; -webkit-transform: scale(.3); transform: scale(.3); }
+    50%{ opacity: 1; -webkit-transform: scale(1.0); transform: scale(1.0); }
+    70%{ -webkit-transform: scale(0.9); transform: scale(0.9); }
+    100%{ -webkit-transform: scale(1); transform: scale(1); }
+    }
+    
+    @keyframes bounce-in {
+    0%{ opacity: 0; transform: scale(.3); }
+    50%{ opacity: 1; transform: scale(1.0); }
+    70%{ transform: scale(0.9); }
+    100%{ transform: scale(1); }
+    }
 
 .mockup{
     opacity: 0;
@@ -101,7 +118,7 @@
     opacity: 0;
     transition: 0.5s;
     transition-delay: 0.5s;
-    transform: translateY(100px);
+    transform: translateY(50px);
     font-family: var(--fm);
     color: var(--sec);
     letter-spacing: 1px;
@@ -112,7 +129,7 @@
     opacity: 0;
     transition: 0.5s;
     transition-delay: 0.5s;
-    transform: translateY(100px);
+    transform: translateY(50px);
     font-family: var(--fm);
     color: var(--sec);
     letter-spacing: 2px;
@@ -130,9 +147,16 @@
 }
 
 .who-link{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.8s;
     position: absolute;
     bottom: 20px;
     left: 145px;
+}
+
+.in-page .who-link{
+    opacity: 1;
 }
 
 .bg-loghi{
@@ -147,14 +171,17 @@
 .grafic-web{
     opacity: 0;
     transition: 0.5s;
-    transform: translateX(-100px);
+    transition-delay: 0.5s;
     width: 500px;
     box-shadow: #7c766dbe 0px 0px 20px 4px;
 }
 
 .in-page.grafic-web{
     opacity: 1;
-    transform: translateX(0);
+    -webkit-animation:bounce-in 1s ease 0s 1 normal;
+    -moz-animation:bounce-in 1s ease 0s 1 normal;
+    -ms-animation:bounce-in 1s ease 0s 1 normal;
+    animation:bounce-in 1s ease 0s 1 normal;
 }
 
 .grafic-web1{
@@ -165,12 +192,15 @@
 .prof-anim{
     opacity: 0;
     transition: 0.5s;
-    transform: translateX(100px);
+    transition-delay: 0.5s;
 }
 
 .in-page.prof-anim{
     opacity: 1;
-    transform: translateX(0);
+    -webkit-animation:bounce-in 1s ease 0s 1 normal;
+    -moz-animation:bounce-in 1s ease 0s 1 normal;
+    -ms-animation:bounce-in 1s ease 0s 1 normal;
+    animation:bounce-in 1s ease 0s 1 normal;
 }
 
 
@@ -247,7 +277,7 @@
     .pres{
         margin-top: 100px;
         margin-bottom: 50px;
-        width: 300px;
+        width: 350px;
     }
 
     .mockup{
@@ -265,7 +295,7 @@
     }
 
     .header-home{
-        height: 105vh;
+        height:110vh;
         background-size: contain;
         background-position: bottom;
     }

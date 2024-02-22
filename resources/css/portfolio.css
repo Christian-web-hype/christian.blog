@@ -15,7 +15,7 @@
 .p-portfolio{
     opacity: 0;
     transition: 0.5s;
-    transform: translateY(100px);
+    transform: translateY(50px);
     font-family: var(--fm);
     color: var(--sec);
     letter-spacing: 2px;
@@ -63,7 +63,7 @@
 .portfolio-graphic{
     opacity: 0;
     transition: 0.5s;
-    transform: translateX(-100px);
+    transition-delay: 0.5s;
     width: 550px;
     height: 400px;
     object-fit: cover;
@@ -71,19 +71,24 @@
 
 .in-page.portfolio-graphic{
     opacity: 1;
-    transform: translateX(0);
+    -webkit-animation:bounce-in 1s ease 0s 1 normal;
+    -moz-animation:bounce-in 1s ease 0s 1 normal;
+    -ms-animation:bounce-in 1s ease 0s 1 normal;
+    animation:bounce-in 1s ease 0s 1 normal;
 }
 
 .anim-tm1{
     opacity: 0;
     transition: 0.5s;
     transition-delay: 0.5s;
-    transform: scale(0);
 }
 
 .in-page.anim-tm1{
     opacity: 1;
-    transform: scale(1);
+    -webkit-animation:bounce-in 1s ease 0s 1 normal;
+    -moz-animation:bounce-in 1s ease 0s 1 normal;
+    -ms-animation:bounce-in 1s ease 0s 1 normal;
+    animation:bounce-in 1s ease 0s 1 normal;
 }
 
 .anim-tm2{
@@ -108,10 +113,10 @@
 
 .in-page.anim-tm3{
     opacity: 1;
-    -webkit-animation:elastic 1s ease-out 0.5s 1 normal;
-    -moz-animation:elastic 1s ease-out 0.5s 1 normal;
-    -ms-animation:elastic 1s ease-out 0.5s 1 normal;
-    animation:elastic 1s ease-out 0.5s 1 normal;
+    -webkit-animation:bounce-in 1s ease 0s 1 normal;
+    -moz-animation:bounce-in 1s ease 0s 1 normal;
+    -ms-animation:bounce-in 1s ease 0s 1 normal;
+    animation:bounce-in 1s ease 0s 1 normal;
 }
 
 /* tablet */

@@ -94,7 +94,7 @@
 .btn1-mod3{
     opacity: 0;
     transition: 0.5s;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
     transform: translateY(50px);
     position: absolute;
     bottom: 0;
@@ -131,7 +131,7 @@
 .carousel{
     opacity: 0;
     transition: 0.5s;
-    transition-delay: 0.5s;
+    transition-delay: 0.2s;
     width: 90%;
     height: 400px;
     border: solid 2px var(--modm3);
@@ -140,10 +140,10 @@
 
 .in-page.carousel{
     opacity: 1;
-    -webkit-animation:elastic 1s ease-out 0.5s 1 normal;
-    -moz-animation:elastic 1s ease-out 0.5s 1 normal;
-    -ms-animation:elastic 1s ease-out 0.5s 1 normal;
-    animation:elastic 1s ease-out 0.5s 1 normal;
+    -webkit-animation:elastic 1s ease-out 0.2s 1 normal;
+    -moz-animation:elastic 1s ease-out 0.2s 1 normal;
+    -ms-animation:elastic 1s ease-out 0.2s 1 normal;
+    animation:elastic 1s ease-out 0.2s 1 normal;
 }
 
 @-webkit-keyframes elastic {
@@ -197,6 +197,9 @@
 }
 
 .img-sec2-mod3{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 1.5s;
     background: url(/public/modal3/sec2-mod3.jpg) no-repeat;
     background-size: cover;
     width: 500px;
@@ -206,9 +209,10 @@
 }
 
 .in-page.img-sec2-mod3{
+    opacity: 1;
     -webkit-animation: rotate-in-2-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: rotate-in-2-cw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
 }
 
 @-webkit-keyframes rotate-in-2-cw {
@@ -237,6 +241,9 @@
   }
 
 .bor-img-sec2-mod3{
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 1s;
     width: 400px;
     height: 400px;
     border: solid 2px var(--modm3);
@@ -244,6 +251,7 @@
 }
 
 .in-page.bor-img-sec2-mod3{
+    opacity: 0;
     -webkit-animation: rotate-in-2-ccw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: rotate-in-2-ccw 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation-delay: 1s;
