@@ -47,3 +47,18 @@
         background-position: bottom;
     }
 }
+
+/* mobile */
+
+@media screen and (max-width: 600px){
+    .header-who{
+        height: 130vh;
+        background: url(/public/media/motivo3.png) no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .p-who{
+        padding: 0!important;
+    }
+}

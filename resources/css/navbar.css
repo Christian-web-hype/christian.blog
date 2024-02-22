@@ -149,3 +149,36 @@
         width: 400px;
     }
 }
+
+/* mobile */
+
+@media screen and (max-width: 600px){
+    .logo{
+        margin-bottom: 8px!important;
+        margin-left: 0px;
+    }
+
+    .menu-contain{
+        left: 0px;
+    }
+
+    .menu-canvas{
+        margin-top: 60px!important;
+        margin-right: 0px!important;
+        width: 100% !important;
+        height: 100%vh;
+    }
+
+    .logo-canvas{
+        margin-top: 25px;
+        width: 200px;
+    }
+
+    .link-list-item,.link-list-item > a{
+        font-size: 20px;
+    }
+
+    .canvas-title{
+        font-size: 25px;
+    }
+}

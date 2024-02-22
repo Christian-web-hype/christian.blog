@@ -251,3 +251,94 @@
         font-size: 20px;
     }
 }
+
+/* mobile */
+
+@media screen and (max-width: 600px){
+
+    .nav-mod2{
+        display: none!important;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    .logo-mod2{
+        margin-top: 9px;
+        margin-right: 80px;
+        width: 50px;
+    }
+
+    .sec1-mod2{
+        height: 80vh;
+        background-size: cover;
+        background-position: top;
+        margin-bottom: 150px!important;
+    }
+
+    .sec2-mod2{
+        height: 80vh;
+        margin-bottom: 150px!important;
+    }
+
+    .collage1-mod2{
+        background: var(--modtrd2);
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: 89;
+    }
+
+    .btn-mod2{
+        bottom: -120px;
+        right: 0;
+        z-index: 999;
+    }
+
+    .btn-mobile-mod2{
+        right: 220px;
+    }
+
+    .collage2-mod2{
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        bottom: 0px;
+        left: 40px;
+        z-index: 89;
+    }
+
+    .collage3-mod2{
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: 89;
+    }
+
+    
+    .ev1-mod2{
+        font-size: 75px;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
+
+    .img-sec2-mod2{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img-sec3-mod2{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+}

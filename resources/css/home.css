@@ -162,3 +162,66 @@
     }
 
 }
+
+/* mobile */
+
+@media screen and (max-width: 600px){
+    .pres{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+
+    .mockup{
+        width: 250px;
+    }
+
+    .arrow-portfolio{
+        display: none;
+    }
+
+    .portfolio-link{
+        position: absolute;
+        top: 130%;
+        right: 22%;
+    }
+
+    .header-home{
+        height: 105vh;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .mod2-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .p1{
+        margin: 0!important;
+        padding: 0!important;
+    }
+
+    .grafic-web{
+        width: 300px;
+        box-shadow: #7c766dbe 0px 0px 20px 4px;
+    }
+
+    .profilo{
+        margin-top: 0!important;
+        width: 300px;
+    }
+
+    .sec2{
+        height: 120vh;
+        background: url(/public/media/motivo4.png) no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .who-link{
+        position: absolute;
+        bottom: 20px;
+        left: 80px;
+    }
+}

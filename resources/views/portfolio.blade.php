@@ -2,13 +2,13 @@
     <header class="container-fluid header-portfolio">
         <div class="row">
             
-            <div class="col-12 col-xl-6 my-5 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-xl-6 my-5 mob-col-port d-flex justify-content-center align-items-center">
                 <div class="d-flex justify-content-center align-items-center mt-5">
                     <img class="portfolio-graphic" src="media/portfolio-graphic.jpg" alt="">
                 </div>
             </div>
             
-            <div class="col-12 col-xl-6 col-port-tab1 my-5 d-flex flex-column justify-content-center align-items-center">
+            <div class="col-12 col-xl-6 col-port-tab1 mob-col-port my-5 d-flex flex-column justify-content-center align-items-center">
                 <h1 class="tit-portfolio text-center mt-5">Esplora il Mio <span class="grassetto">Mondo Creativo</span></h1>
                 <h2 class="tit-portfolio text-center">Scopri la mia collezione di template</h2>
                 <p class="text-center p-portfolio">Progettati per ideare ed elevare la tua presenza online con design fatti su misura per te. Sfoglia i template qui sotto e immergiti nel mondo dello sviluppo web e del design.</p>
@@ -21,7 +21,7 @@
         <section class="container-fluid">
             <div class="row">
                 
-                <div class="col-12 justify-content-center align-items-center my-5">
+                <div class="col-12 justify-content-center mob-col-port align-items-center my-5">
                     <h2 class="tit-portfolio tms-portfolio text-center mt-5">Template Creati con <span class="grassetto">Passione</span></h2>
                 </div>
                 
@@ -34,14 +34,14 @@
                 
                 <div class="col-12 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h2 class="tit-portfolio text-center"><span class="grassetto">Power</span> Template</h2>
-                    <p class="p-portfolio mt-2">Esplora l'energia esplosiva del tuo progetto online con Power e crea un impatto straordinario sul web, con la <span class="grassetto">potenza</span> di Power, progettato <span class="grassetto">su misura</span> per massimizzare la tua presenza online. Design <span class="grassetto">accattivante</span> e <span class="grassetto">prestazioni ottimizzate</span>, il tuo sito web si distinguerà. Scegli Power per un'esperienza digitale che va oltre le aspettative, portando il tuo progetto al livello successivo.</p>
+                    <p class="p-portfolio text-center mt-2">Esplora l'energia esplosiva del tuo progetto online con Power e crea un impatto straordinario sul web, con la <span class="grassetto">potenza</span> di Power, progettato <span class="grassetto">su misura</span> per massimizzare la tua presenza online. Design <span class="grassetto">accattivante</span> e <span class="grassetto">prestazioni ottimizzate</span>, il tuo sito web si distinguerà. Scegli Power per un'esperienza digitale che va oltre le aspettative, portando il tuo progetto al livello successivo.</p>
                 </div>
                 
                 {{-- modal 2 --}}
-                <div class="row mod2-row">
-                <div class="col-12 col-xl-5 d-flex flex-column justify-content-center align-items-center ps-5">
+                <div class="row mod2-row m-0 p-0">
+                <div class="col-12 col-xl-5 d-flex flex-column justify-content-center align-items-center mob-col-port1 ps-5">
                     <h2 class="tit-portfolio text-center"><span class="grassetto">Collage</span> Template</h2>
-                    <p class="p-portfolio mt-2">Esplora l'eleganza tuo progetto online con <span class="grassetto">Collage</span> offrendo un'esperienza visiva unica. La caratteristica distintiva di Collage risiede nella <span class="grassetto">disposizione ordinata</span> degli elementi, simile a un collage digitale, che conferisce al tuo sito web un aspetto accattivante e dinamico. Collage <span class="grassetto">trasforma la tua presenza online in un'opera d'arte digitale</span>. Scegli Collage per superare le aspettative e portare il tuo progetto al livello successivo, dove ogni elemento è posizionato con cura per creare un impatto straordinario.</p>
+                    <p class="p-portfolio text center mt-2">Esplora l'eleganza del tuo progetto online con <span class="grassetto">Collage</span> offrendo un'esperienza visiva unica. La caratteristica distintiva di Collage risiede nella <span class="grassetto">disposizione ordinata</span> degli elementi, simile a un collage digitale, che conferisce al tuo sito web un aspetto accattivante e dinamico. Collage <span class="grassetto">trasforma la tua presenza online in un'opera d'arte digitale</span>. Scegli Collage per superare le aspettative e portare il tuo progetto al livello successivo, dove ogni elemento è posizionato con cura per creare un impatto straordinario.</p>
                 </div>
                 
                 <div class="col-12 col-xl-7 d-flex justify-content-evenly align-items-center my-5">
@@ -97,15 +97,16 @@
                             <i class="bi bi-list menu menu-mod1"></i>
                         </div>
                         
-                        <div class="col-7 sec-h-mod1 d-flex flex-column justify-content-evenly align-items-start">
+                        <div class="col-12 col-md-7 sec-h-mod1 d-flex flex-column justify-content-evenly align-items-start">
                             <div>
                                 <h2 class="tit-mod1">LOREM IPSUM <span class="ev-mod1">DOLOR SIT AMET</span> CONSECTETUR ANDIPISICING <span class="ev-mod1">VOLUPTATIBUS ASPERNATUR!</span></h2>
                             </div>
-                            
-                            <button class="btn-header-mod1 me-5 p-3">LOREM IPSUM!</button>
+                            <div class="mobile-btn">
+                                <button class="btn-header-mod1 me-5 p-3">LOREM IPSUM!</button>
+                            </div>
                         </div>
                         
-                        <div class="col-3"></div>
+                        <div class="col-3 d-sm-none"></div>
                     </div>
                 </div>
                 
@@ -118,12 +119,12 @@
                             <h3 class="tit-modal1">LOREM IPSUM DOLOR</h3>
                         </div>
                         
-                        <div class="col-6 d-flex position-relative my-5 justify-content-end align-items-center">
+                        <div class="col-12 col-md-6 d-flex position-relative my-5 justify-content-end align-items-center">
                             <div class="sec1-img-mod1"></div>
                             <p class="step1-mod1">LOREM</p>
                         </div>
                         
-                        <div class="col-6 d-flex flex-column justify-content-evenly align-items-center">
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-evenly align-items-center">
                             <p class="p-mod1 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, esse assumenda pariatur repellat suscipit magni neque repudiandae ipsam dolorum quibusdam fugit asperiores nihil expedita corrupti, cumque illum! Sapiente debitis dolorum odio natus aspernatur repellendus nobis doloribus alias unde hic! Exercitationem magnam et illum nostrum eum ab, dolores modi inventore. Corrupti.</p>
                             <div></div>
                         </div>
@@ -191,6 +192,7 @@
                 {{-- nav --}}
                 <div class="nav1-mod2 d-flex justify-content-center align-items-center p-0">
                     <ul class="d-flex justify-content-center align-items-center p-0">
+                        <li class="d-md-none"><img class="logo-mod2" src="modal2/logo-mod2.png" alt=""></li>
                         <li class="link-mod2 mx-3 mt-2">LINK</li>
                         <li class="link-mod2 mx-3 mt-2">LINK</li>
                         <li class="link-mod2 mx-3 mt-2">LINK</li>
@@ -232,10 +234,10 @@
                 {{-- sec2 --}}
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 my-5 sec2-mod2 row-tab-mod2">
+                        <div class="col-12 my-5 p-0 sec2-mod2 row-tab-mod2">
                             
-                            <div class="col-12 col-md-9 col-xl-9 h-100 img-sec2-mod2 d-flex justify-content-center position-relative">
-                                <button class="btn-mod2">PRESS</button>
+                            <div class="col-12 p-sm-0 col-md-9 col-xl-9 h-100 img-sec2-mod2 d-flex justify-content-center position-relative">
+                                <button class="btn-mod2 btn-mobile-mod2">PRESS</button>
                                 <div class="collage2-mod2 d-flex flex-column justify-content-evenly align-items-center">
                                     <h2 class="h-mod2">Lorem ipsum</h2>
                                     <p class="p-mod2 text-center px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero maiores repellendus quia ab quo inventore voluptatibus pariatur, iusto sapiente ipsum quisquam impedit optio voluptates fugiat tempore enim ipsa, possimus facere id quam odio! Adipisci nemo, cupiditate facere numquam modi possimus sed dolore, inventore eos qui natus eveniet error minima quisquam.</p>
@@ -249,7 +251,7 @@
                 {{-- sec3 --}}
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 d-flex sec2-mod2 justify-content-center my-5">
+                        <div class="col-12 p-0 d-flex sec2-mod2 justify-content-center my-5">
                             
                             <div class="col-12 col-md-9 col-xl-9 h-100 img-sec3-mod2 d-flex justify-content-center position-relative">
                                 <button class="btn-mod2">PRESS</button>
@@ -327,11 +329,11 @@
                             
                             <div class="d-flex">
                                 <div class="head2-mod3 d-flex flex-column justify-content-end align-items-center">
-                                    <h2 class="head-txt-mod3">Lorem Ipsum</h2>
+                                    <h2 class="head-txt-mod3 text-center">Lorem Ipsum</h2>
                                     <button class="btn-mod3 mb-3">Press now</button>
                                 </div>
                                 <div class="head3-mod3 d-flex flex-column justify-content-end align-items-center">
-                                    <h2 class="head-txt-mod3">Lorem Ipsum</h2>
+                                    <h2 class="head-txt-mod3 text-center">Lorem Ipsum</h2>
                                     <button class="btn-mod3 mb-3">Press now</button>
                                 </div>
                             </div>
@@ -340,9 +342,9 @@
                 </div>
                 
                 {{-- sec1 --}}
-                <div class="container-fluid position-relative d-flex justify-content-center mt-5">
+                <div class="container-fluid p-0 contain-mobile position-relative d-flex justify-content-center mt-5">
                     <button class="btn1-mod3 mb-3">Press now</button>
-                    <div class="row justify-content-center">
+                    <div class="row mobile-row justify-content-center">
                         <div class="col-12 my-5">
                             <h2 class="h-mod3 text-center mt-5">Lorem Ipsum Dolor Sit</h2>
                         </div>
@@ -352,22 +354,22 @@
                                 <div class="carousel-item active" data-bs-interval="3500">
                                     <div class="d-flex">
                                         <img class="img-mod3" src="modal3/car1.jpg" class="d-block w-100" alt="...">
-                                        <img class="img-mod3" src="modal3/car2.jpg" class="d-block w-100" alt="...">
-                                        <img class="img-mod3" src="modal3/car3.jpg" class="d-block w-100" alt="...">
+                                        <img class="img-mod3 mobile-car" src="modal3/car2.jpg" class="d-block w-100" alt="...">
+                                        <img class="img-mod3 mobile-car" src="modal3/car3.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="3500">
                                     <div class="d-flex">
                                         <img class="img-mod3" src="modal3/car4.jpg" class="d-block w-100" alt="...">
-                                        <img class="img-mod3" src="modal3/car5.jpg" class="d-block w-100" alt="...">
-                                        <img class="img-mod3" src="modal3/car6.jpg" class="d-block w-100" alt="...">
+                                        <img class="img-mod3 mobile-car" src="modal3/car5.jpg" class="d-block w-100" alt="...">
+                                        <img class="img-mod3 mobile-car" src="modal3/car6.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="3500">
                                     <div class="d-flex">
                                         <img class="img-mod3s" src="modal3/car7.jpg" class="d-block w-100" alt="...">
-                                        <img class="img-mod3" src="modal3/car8.jpg" class="d-block w-100" alt="...">
-                                        <img class="img-mod3" src="modal3/car9.jpg" class="d-block w-100" alt="...">
+                                        <img class="img-mod3 mobile-car" src="modal3/car8.jpg" class="d-block w-100" alt="...">
+                                        <img class="img-mod3 mobile-car" src="modal3/car9.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -376,10 +378,10 @@
                 </div>
 
                 {{-- sec2 --}}
-                <div class="container-fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-6">
-                            <p class="text-center link-mod3 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eius nisi, atque adipisci reiciendis iste tenetur quis odit assumenda illo. Blanditiis expedita quis sequi provident corrupti placeat, sit nisi error molestiae consectetur quam similique architecto minus consequuntur ullam voluptatibus, iure dicta. Quisquam, quasi quam vel sunt aliquam vero quos eos!</p>
+                <div class="container-fluid contain-mobile m-0 p-0">
+                    <div class="row mobile-row justify-content-center">
+                        <div class="col-12 col-md-6">
+                            <p class="text-center p-mod3 link-mod3 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eius nisi, atque adipisci reiciendis iste tenetur quis odit assumenda illo. Blanditiis expedita quis sequi provident corrupti placeat, sit nisi error molestiae consectetur quam similique architecto minus consequuntur ullam voluptatibus, iure dicta. Quisquam, quasi quam vel sunt aliquam vero quos eos!</p>
                         </div>
 
                         <div class="col-12 sec2-mod3 position-relative d-flex justify-content-center align-items-center">
