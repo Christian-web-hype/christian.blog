@@ -22,7 +22,6 @@
 
         <div class="col-12 col-md-4 col-fot-tab d-flex justify-content-center align-items-center">
             <ul class="text-center">
-                <li class="link-footer-item2">P.IVA e C.F. 14643331003</li>
                 <li class="link-footer-item2">+39 348 491 0086</li>
                 <li class="link-footer-item2">christian.casano5@gmail.com</li>
             </ul>

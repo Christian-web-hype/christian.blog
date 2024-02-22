@@ -11,7 +11,7 @@
         <div class="d-flex justify-content-center position-relative watch">
           {{-- <img class="mockup" src="media/mockup.png" alt=""> --}}
           <video class="mockup" autoplay loop muted>
-            <source src="media/mk2.mp4" type="video/mp4">
+            <source src="media/mk2_1beige.mp4" type="video/mp4">
           </video>
           <img class="arrow-portfolio" src="media/arrow.png" alt="">
           <a class="btn btn-link portfolio-link" href="{{route('portfolio')}}">Portfolio</a>

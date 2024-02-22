@@ -5,9 +5,6 @@
 }
 
 .sec1{
-    /* height: 100vh; */
-    /* background:url(/public/media/motivo1.png);
-    background-size: 100% 100%; */
     background: linear-gradient(to bottom, var(--bg), var(--main));
 }
 
@@ -72,14 +69,16 @@
 .mockup{
     opacity: 0;
     transition: 0.5s;
-    transition-delay: 0.2s;
-    transform: scale(0.5);
+    transition-delay: 0.8s;
+    /* transform: scale(0.5); */
     width: 350px;
+    height: 310px;
+    object-position: 2px 0px;
 }
 
 .in-page .mockup{
     opacity: 1;
-    transform: scale(1);
+    /* transform: scale(1); */
 }
 
 .arrow-portfolio{
@@ -208,6 +207,7 @@
 
 
 @media screen and (min-width: 600px) and (max-width: 1024px){
+
     
     .pres{
         margin-top: 100px;
@@ -282,6 +282,7 @@
 
     .mockup{
         width: 250px;
+        height: 210px;
     }
 
     .arrow-portfolio{
