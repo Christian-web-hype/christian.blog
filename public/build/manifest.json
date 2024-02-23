@@ -1,0 +1,92 @@
+{
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BOrJxbIo.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-BtvjY1KL.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "public/media/motivo3.png": {
+    "file": "assets/motivo3-Dp4RvKVE.png",
+    "src": "public/media/motivo3.png"
+  },
+  "public/media/motivo4.png": {
+    "file": "assets/motivo4-BExio9EY.png",
+    "src": "public/media/motivo4.png"
+  },
+  "public/media/motivo6.png": {
+    "file": "assets/motivo6-B2EEfgrS.png",
+    "src": "public/media/motivo6.png"
+  },
+  "public/media/motivologo.png": {
+    "file": "assets/motivologo-DWc7AsKp.png",
+    "src": "public/media/motivologo.png"
+  },
+  "public/modal1/coach.jpg": {
+    "file": "assets/coach-CkkmTEvj.jpg",
+    "src": "public/modal1/coach.jpg"
+  },
+  "public/modal1/coach1.jpg": {
+    "file": "assets/coach1-CmNEr9m3.jpg",
+    "src": "public/modal1/coach1.jpg"
+  },
+  "public/modal1/coach2.jpg": {
+    "file": "assets/coach2-CUJo1eFd.jpg",
+    "src": "public/modal1/coach2.jpg"
+  },
+  "public/modal1/header.jpg": {
+    "file": "assets/header-CVSafHlw.jpg",
+    "src": "public/modal1/header.jpg"
+  },
+  "public/modal1/sec1.jpg": {
+    "file": "assets/sec1-C0K6zX46.jpg",
+    "src": "public/modal1/sec1.jpg"
+  },
+  "public/modal2/0.jpg": {
+    "file": "assets/0-Bp6noFAu.jpg",
+    "src": "public/modal2/0.jpg"
+  },
+  "public/modal2/2.jpg": {
+    "file": "assets/2-CgxIO67c.jpg",
+    "src": "public/modal2/2.jpg"
+  },
+  "public/modal2/3.jpg": {
+    "file": "assets/3-By1mOo3r.jpg",
+    "src": "public/modal2/3.jpg"
+  },
+  "public/modal2/header-mod2.jpg": {
+    "file": "assets/header-mod2-BRY4Zce6.jpg",
+    "src": "public/modal2/header-mod2.jpg"
+  },
+  "public/modal2/header1-mod2.jpg": {
+    "file": "assets/header1-mod2-DHwuOpj-.jpg",
+    "src": "public/modal2/header1-mod2.jpg"
+  },
+  "public/modal3/header1-mod3.jpg": {
+    "file": "assets/header1-mod3-wZlnj7vD.jpg",
+    "src": "public/modal3/header1-mod3.jpg"
+  },
+  "public/modal3/header2-mod3.jpg": {
+    "file": "assets/header2-mod3-BnnbSbiy.jpg",
+    "src": "public/modal3/header2-mod3.jpg"
+  },
+  "public/modal3/header3-mod3.jpg": {
+    "file": "assets/header3-mod3-91ROQ3Di.jpg",
+    "src": "public/modal3/header3-mod3.jpg"
+  },
+  "public/modal3/sec2-mod3.jpg": {
+    "file": "assets/sec2-mod3-Bu-GZH1N.jpg",
+    "src": "public/modal3/sec2-mod3.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-D8Z1CZEK.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BW3MVaif.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
