@@ -1,7 +1,5 @@
 {
     "hosting": {
-      "site": "christiancasano",
-  
       "public": "resources/views"
     }
   }
